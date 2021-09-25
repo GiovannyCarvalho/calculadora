@@ -6,6 +6,7 @@ const btn = props => {
     classes += props.operation ? 'operation' : ''
     classes += props.double ? 'double' : ''
     classes += props.triple ? 'triple' : ''
+    classes += props.equal ? 'equal' : ''
 
 
     return (
